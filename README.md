@@ -2,7 +2,7 @@
   <img src="https://i.hizliresim.com/7ndpq83.png" alt="GDG Bursa Logo" height="80">
 </p>
 
-<h1 align="center">GDG Bursa — DevFest Recap (GDG Wrapped)</h1>
+<h1 align="center">GDG Bursa — DevFest Recap</h1>
 
 <p align="center">
   <code>recap.devfestbursa.com</code> için geliştirilmiş, yüksek performanslı bir katılımcı etkileşimi, karekod tarama, liderlik tablosu ve kişiselleştirilmiş "Wrapped" analiz platformudur. Etkinlik boyunca stantları gezen, oturumlara ve atölyelere katılan katılımcıların QR kodları taratarak puan toplamasını, sıralamada yarışmasını ve günün sonunda kendilerine özel istatistik kartları (dominant kategoriler, favori salonlar, kazanılan rozetler) üretilmesini sağlar.
@@ -723,7 +723,7 @@ Hangi salonun veya alanın daha fazla ziyaretçi/tarama çektiğini listeler.
 
 ### Neden Entegre Ettik?
 
-DevFest Recap sisteminin, oturumlar, konuşmacılar ve salon isimleri gibi etkinlik verilerini manuel olarak tekrar girmek yerine, halihazırda bu verilerin canlı olarak yönetildiği DevTV sisteminden beslenmesi amaçlanmıştır. Bu sayede DevTV tarafında yapılan herhangi bir saat veya salon değişikliği, otomatik olarak Recap (GDG Wrapped) sistemine yansır ve veri tutarlılığı sağlanır.
+DevFest Recap sisteminin, oturumlar, konuşmacılar ve salon isimleri gibi etkinlik verilerini manuel olarak tekrar girmek yerine, halihazırda bu verilerin canlı olarak yönetildiği DevTV sisteminden beslenmesi amaçlanmıştır. Bu sayede DevTV tarafında yapılan herhangi bir saat veya salon değişikliği, otomatik olarak Recap sistemine yansır ve veri tutarlılığı sağlanır.
 
 Recap API, `DEVTV_DSN` aracılığıyla DevTV sisteminin PostgreSQL şemasına bağlanır ve aşağıdaki kurallara göre akıllı veri dönüşümü gerçekleştirir:
 
