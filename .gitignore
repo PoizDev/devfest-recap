@@ -1,0 +1,6 @@
+*.env
+*.exe
+/logs
+/tmp
+.vscode
+.git

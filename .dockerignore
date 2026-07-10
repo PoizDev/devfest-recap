@@ -1,0 +1,13 @@
+/bin
+.git
+.idea
+.vscode
+*.env
+*.env.*
+!.env.example
+*.log
+*.swp
+*.swo
+*.exe
+/tmp
+/logs
