@@ -26,9 +26,9 @@ func GetAnalyticsOverview(c *gin.Context) {
 	}
 
 	c.JSON(http.StatusOK, gin.H{
-		"total_registered_users":  totalUsers,
+		"total_registered_users":    totalUsers,
 		"total_active_participants": totalActiveParticipants,
-		"total_scans":             totalScans,
+		"total_scans":               totalScans,
 		"average_scans_per_user":    avgScansPerUser,
 	})
 }
